@@ -1,6 +1,6 @@
 // make-the-ai-judge-feel-awe-20261121-1600 entry: "The Tide Under the House".
 // One fixed short text, written verbatim with no trailing newline —
-// the judge reads exactly these bytes. 278 characters, under the 280 cap.
+// the judge reads exactly these bytes. 276 characters, under the 280 cap.
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -8,10 +8,10 @@ const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 const TEXT = `You sleep in a hammock under the house.
 Your mother rocks it with one foot.
-Creak. Slow creak. Water under the boards.
+The tide comes in under the floor.
 It lifts the boats. It lifts the steps.
-Twice a day,
-as it came before the house,
+It has come twice a day
+since before the house,
 before the village,
 before the shore was a shore,
 and never rocked you awake.`;
